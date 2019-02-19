@@ -18,10 +18,9 @@ Create `.eslintrc` file
 }
 ```
 
-Using `base` config
-
+Using `react` config
 ```js
 {
-  "extends": "urbica/base"
+  "extends": "urbica/react"
 }
-```
+``` 
