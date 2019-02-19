@@ -17,3 +17,11 @@ Create `.eslintrc` file
   "extends": "urbica"
 }
 ```
+
+Using `base` config
+
+```js
+{
+  "extends": "urbica/base"
+}
+```
