@@ -1,14 +1,12 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
-    'eslint-config-airbnb-base/rules/strict',
-    'eslint-config-prettier'
+    'eslint-config-airbnb',
+    'eslint-config-prettier',
+    'eslint-config-urbica/defaults'
   ].map(require.resolve),
   rules: {
-    'arrow-parens': ['warn', 'as-needed', { requireForBlockBody: true }],
-    'comma-dangle': ['error', 'never'],
-    'jsx-quotes': ['error', 'prefer-single'],
-    'max-len': ['error', { code: 80, ignoreUrls: true }],
-    quotes: ['error', 'single']
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-no-bind': 'error',
+    'react/prop-types': [1, { skipUndeclared: true }]
   }
 };
