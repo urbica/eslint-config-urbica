@@ -1,16 +1,21 @@
 {
   "name": "eslint-config-urbica",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Urbica ESLint config",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
   "license": "MIT",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/urbica/eslint-config-urbica.git"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
+  "main": "index.js",
   "scripts": {
-    "cz": "git-cz"
+    "cz": "git-cz",
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
@@ -19,10 +24,12 @@
   },
   "devDependencies": {
     "commitizen": "^3.0.7",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.14.1",
+    "standard-version": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.x"
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
