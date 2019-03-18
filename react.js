@@ -1,7 +1,8 @@
 module.exports = {
-  extends: ['eslint-config-airbnb', 'eslint-config-prettier', './index'].map(
-    require.resolve
-  ),
+  extends: [
+    'eslint-config-airbnb',
+    './index'
+  ].map(require.resolve),
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-no-bind': 'error',
