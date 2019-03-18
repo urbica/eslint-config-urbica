@@ -37,7 +37,7 @@ Using `react` config
 
 ### Absolute Imports
 
-If you are using absolute imports, you should specify root path for `import/resolver`:
+If you are using absolute imports, you should install `eslint-import-resolver-node` and specify root path for `import/resolver`:
 
 ```js
 {
