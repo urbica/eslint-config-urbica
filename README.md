@@ -37,7 +37,7 @@ Using `react` config
 
 ### Absolute Imports
 
-If you are using absolute imports, you should install `eslint-import-resolver-node` and specify root path for `import/resolver`:
+If you are using absolute imports, you should specify root path for `import/resolver`:
 
 ```js
 {
@@ -46,6 +46,25 @@ If you are using absolute imports, you should install `eslint-import-resolver-no
       "node": {
         "paths": [
           "./src"
+        ]
+      }
+    }
+  }
+}
+```
+
+### Using JSX extensions
+
+If you want to use `.jsx` extensions, you should specify extensions in `import/resolver`:
+
+```js
+{
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx"
         ]
       }
     }
