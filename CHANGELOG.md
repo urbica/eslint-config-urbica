@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.0.0](https://github.com/urbica/eslint-config-urbica/compare/v2.0.0...v3.0.0) (2019-04-23)
+
+
+### Features
+
+* 🎸 add eslint-plugin-react-hooks ([256a150](https://github.com/urbica/eslint-config-urbica/commit/256a150))
+
+
+### BREAKING CHANGES
+
+* 🧨 bamp babel-eslint
+
+
+
 # [2.0.0](https://github.com/urbica/eslint-config-urbica/compare/v1.1.3...v2.0.0) (2019-03-18)
 
 
