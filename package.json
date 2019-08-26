@@ -2,7 +2,7 @@
   "name": "eslint-config-urbica",
   "version": "3.0.0",
   "description": "Urbica ESLint config",
-  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
+  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
