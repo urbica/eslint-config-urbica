@@ -18,7 +18,7 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.2.2",
     "git-cz": "^3.2.1",
     "standard-version": "^7.0.0"
   },
