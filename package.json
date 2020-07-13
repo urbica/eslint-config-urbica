@@ -20,7 +20,7 @@
   "devDependencies": {
     "eslint": "^6.2.2",
     "git-cz": "^3.2.1",
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   },
   "peerDependencies": {
     "eslint": "^5.x"
